@@ -67,8 +67,10 @@ ul{
 }
 
 .head-image{
-    width: 150;
-    height: 100;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height: auto;
 }
 
 .button, .call-to-action{
@@ -96,8 +98,8 @@ ul{
     border-radius: 10px;
     margin-bottom: 10px;
     width: 100%;
-    min-width: 100px;
-    max-width: 100px;
+    min-width: 150px;
+    max-width: 150px;
     height: fit-content;
 }
 
@@ -106,4 +108,23 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* quotes section */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 5px 150px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter; 
+    font-style: italic;
+    color:#1F2937;
+    text-align: center;
 }
