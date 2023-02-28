@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0;
+    flex:auto;
 }
 
 .head, .footer {
@@ -44,6 +45,11 @@ ul{
 .text-header{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.text-cont{
+    
 }
 
 /* head content */
@@ -75,8 +81,10 @@ ul{
 
 .button, .call-to-action{
     background-color: #3882F6;
+    border-style: solid;
     border-radius: 10px;
     padding: 5px 20px;
+    border-width: 3px;
 }
 
 /* images section  */
@@ -85,12 +93,20 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 25px 0px;
 }
 
 .content-img{
     display: flex;
     padding: 10px;
     gap: 30px;
+}
+
+.content-head{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    padding-bottom: 25px;
 }
 
 .border{
@@ -118,7 +134,7 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 5px 150px;
+    padding: 50px 0px;
 }
 
 .quote-text{
@@ -127,4 +143,30 @@ ul{
     font-style: italic;
     color:#1F2937;
     text-align: center;
+}
+
+/* signup section */
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 100px;
+}
+
+.signup-background{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
